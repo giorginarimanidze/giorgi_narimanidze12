@@ -1,0 +1,170 @@
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+
+    padding: 130px 253px 150px 191px;
+
+    background-color: #0F172A;
+}
+
+.mother_div {
+
+    display: flex;
+    justify-content: space-between;
+
+    height: 787px;
+    /* border: 2px solid red; */
+}
+
+.first_child {
+    width: 50%;
+    height: 100%;
+
+    border-radius: 20px;
+
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* second div */
+
+.second_child {
+    width: 449px;
+    height: 100%;
+
+    /* border: 3px solid yellow; */
+}
+
+.first_title {
+    font-size: 52px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+/* h3::after{
+    content: "\e1a7";
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    font-weight: 900;
+    font-size: 52px;
+    color: yellow;
+} რატომ არ შემოდის აიქონი ვერ მივხვდი */
+
+.first_p {
+    color: #94A3B8;
+    font-size: 17px;
+    margin-top: 18px;
+    line-height: 30px;
+
+}
+
+.google_submit {
+    width: 444px;
+    height: 50px;
+
+    margin-top: 40px;
+
+    background-color: #1E293B;
+    border-radius: 30px;
+
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button_a .button_first {
+
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 444px;
+
+    height: 50px;
+
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-inline-start: 0;
+
+    background-color: #1E293B;
+    border-radius: 30px;
+    border: none;
+
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* input */
+
+.form1 {
+    margin-top: 49px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #E4E4E7;
+}
+
+.first_input {
+
+    height: 60px;
+    padding: 17px 200px 17px 22px;
+
+    background-color: #334155;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+
+
+}
+
+.first_input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #94A3B8;
+}
+
+
+.check_div{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+
+.subbmit {
+    width: 201px;
+    height: 50px;
+    padding: 13px 37px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    background-color: #2563EB;
+    margin-top: 20px;
+}
+
+.last_p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748B;
+}
+.last_span{
+    color: #2563EB;
+    font-weight: 600;
+}
+
